@@ -1,7 +1,7 @@
 """sample test"""
 import unittest
 
-from hello import hello
+from exceldemo import hello
 
 
 class TestHello(unittest.TestCase):
