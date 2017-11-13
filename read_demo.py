@@ -15,7 +15,7 @@ sheet = book.sheet_by_index(0)
 # 获取基本信息,有多少行,有多少列
 nrows = sheet.nrows
 ncols = sheet.ncols
-
+print ncols
 # 按行读取,使用row_values 方法
 for i in range(nrows):
     print sheet.row_values(i)
